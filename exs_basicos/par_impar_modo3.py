@@ -1,9 +1,9 @@
-a = float(input("Digite um número: "))
-# Não tem validação para letra
-if a % 1 == 0:
-    if a % 2 == 0:
-        print("O número é par.")
+numero = float(input("Digite um número: "))
+# Sem validação para letra
+if numero % 1 == 0:
+    if numero % 2 == 0:
+        print(f"{numero} é par")
     else:
-        print("O número é impar.")
+        print(f"{numero} é impar")
 else:
-    print("Não é um número inteiro.")
+    print("Não é um número inteiro")
